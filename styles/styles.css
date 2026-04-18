@@ -53,7 +53,7 @@ body {
   background-image: url("../images/index-background.jpg");
   color: #000000;
   background-color: #FFFFFF;
-  background-size: 100% auto;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
   text-align: center;
 }
@@ -126,7 +126,7 @@ body {
   background-image: url("../images/subscribe-background.jpg");
   color: #FFFFFF;
   background-color: #756157;
-  background-size: 100% auto;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
 }
 
@@ -163,7 +163,7 @@ body {
 
 .catalog-assets {
   background-image: url("../images/filters-background.jpg");
-  background-size: 100% auto;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
   background-color: #756157;
   color: #FFFFFF;
@@ -295,4 +295,18 @@ body {
   color: #000000;
   background-color: #FFFFFF;
   text-align: center;
+}
+
+.subscribe-catalog {
+  color: #000000;
+  background-image: none;
+  background-color: #FFFFFF;
+}
+
+.title-catalog {
+  color: #000000;
+}
+
+.description-catalog {
+  color: #333333;
 }
