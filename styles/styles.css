@@ -147,6 +147,10 @@ body {
   background-color: #F2F2F2;
 }
 
+.subscribe-button {
+  background-color: #82B3D3;
+}
+
 .footer-phone {
   font-size: 40px;
   line-height: 40px;
@@ -200,6 +204,14 @@ body {
   background-color: #F2F2F2;
 }
 
+.catalog-filter-submit {
+  background-color: #82B3D3;
+}
+
+.catalog-filter-reset {
+  background-color: transparent;
+}
+
 .catalog-products-title {
   font-size: 30px;
   line-height: 36px;
@@ -212,6 +224,10 @@ body {
   line-height: 21px;
   font-weight: 400;
   color: #333333;
+}
+
+.product-item-link {
+  text-decoration: none;
 }
 
 .product-item-title {
@@ -236,6 +252,14 @@ body {
   text-align: right;
 }
 
+.add-favorite-button {
+  background-color: #82B3D3;
+}
+
+.current-favorite-button {
+  background-color: #7DB54F;
+}
+
 .product-item-rating {
   font-size: 16px;
   line-height: 20px;
@@ -243,6 +267,7 @@ body {
   color: #333333;
   text-align: center;
   text-transform: uppercase;
+  background-color: #F2F2F2;
 }
 
 .pagination-link {
