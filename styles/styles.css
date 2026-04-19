@@ -18,7 +18,9 @@ body {
   font-family: "PT Sans", sans-serif;
   font-size: 22px;
   line-height: 26px;
-  background-color: #FFFFFF;
+  font-weight: 400;
+  font-style: normal;
+  background-color: #F2F2F2;
   color: #333333;
 }
 
@@ -36,7 +38,7 @@ body {
 
 .page-header {
   color: #000000;
-  background-color: inherit;
+  background-color: #FFFFFF;
 }
 
 .navigation-link {
@@ -49,13 +51,27 @@ body {
   text-decoration: none;
 }
 
-.hero {
-  background-image: url("../images/index-background.jpg");
-  color: #000000;
+.navigation-user-link {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+  color: inherit;
   background-color: #FFFFFF;
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
   text-align: center;
+  text-decoration: none;
+}
+
+.main-index {
+  background-color: #FFFFFF;
+}
+
+.hero {
+  background-image: url("../images/index-decoration.svg"), url("../images/index-background.jpg");
+  color: #000000;
+  background-color: #756157;
+  background-size: 100% auto, cover;
+  background-repeat: no-repeat;
+  background-position: left bottom, left top;
 }
 
 .advantages {
@@ -85,9 +101,21 @@ body {
   color: inherit;
 }
 
-.advantages-wide {
+.advantages-dark {
   color: #FFFFFF;
   background-color: #82B3D3;
+}
+
+.advantages-title-light {
+  color: #FFFFFF;
+}
+
+.advantages-light {
+  background-color: #83B3D31F;
+}
+
+.advantages-medium {
+  background-color: #83B3D333;
 }
 
 .recommendations {
@@ -126,7 +154,7 @@ body {
   background-image: url("../images/subscribe-background.jpg");
   color: #FFFFFF;
   background-color: #756157;
-  background-size: 100% 100%;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
@@ -151,6 +179,10 @@ body {
   background-color: #82B3D3;
 }
 
+.page-footer {
+  background-color: #FFFFFF;
+}
+
 .footer-phone {
   font-size: 40px;
   line-height: 40px;
@@ -161,9 +193,13 @@ body {
   text-transform: uppercase;
 }
 
+.main-catalog {
+  background-color: #FFFFFF;
+}
+
 .catalog-assets {
   background-image: url("../images/filters-background.jpg");
-  background-size: 100% 100%;
+  background-size: cover;
   background-repeat: no-repeat;
   background-color: #756157;
   color: #FFFFFF;
@@ -224,6 +260,7 @@ body {
   line-height: 21px;
   font-weight: 400;
   color: #333333;
+  background-color: #FFFFFF;
 }
 
 .product-item-link {
