@@ -266,11 +266,11 @@ body {
 
 .page-footer {
   background-color: #FFFFFF;
+  width: 1200px;
 }
 
 .page-footer-container {
   display: flex;
-  width: 1200px;
   margin: 0 auto;
 }
 
@@ -293,6 +293,7 @@ body {
 
 .copyright {
   width: 115px;
+  margin-right: auto;
 }
 
 .main-catalog {
