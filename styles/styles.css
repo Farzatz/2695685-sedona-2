@@ -139,6 +139,7 @@ body {
   color: #000000;
   background-color: #FFFFFF;
   text-align: center;
+  text-transform: uppercase;
 }
 
 .advantages-list {
@@ -153,7 +154,7 @@ body {
 }
 
 .advantages-dark {
-  width: 1200px;
+  width: 100%;
 }
 
 .advantages-middle {
@@ -166,6 +167,7 @@ body {
   line-height: 28px;
   font-weight: 700;
   color:#000000;
+  text-transform: uppercase;
 }
 
 .advantages-item-description {
@@ -178,7 +180,6 @@ body {
 .advantages-dark {
   color: #FFFFFF;
   background-color: #82B3D3;
-
 }
 
 .advantages-title-light {
@@ -212,6 +213,7 @@ body {
   line-height: 28px;
   font-weight: 700;
   color:#000000;
+  text-transform: uppercase;
 }
 
 .recommendations-item-description {
@@ -232,6 +234,7 @@ body {
   color: #000000;
   background-color: #FFFFFF;
   text-align: center;
+  text-transform: uppercase;
 }
 
 .subscribe {
@@ -249,6 +252,7 @@ body {
   font-weight: 700;
   color: #FFFFFF;
   text-align: center;
+  text-transform: uppercase;
 }
 
 .subscribe-form-name input{
@@ -326,8 +330,10 @@ body {
   text-decoration: none;
 }
 
-.filters {
+.catalog-filter {
   display: flex;
+  margin: 0;
+  padding: 0;
 }
 
 .catalog-filter-title {
@@ -341,8 +347,14 @@ body {
   margin-right: 70px;
 }
 
+.catalog-filter-group:nth-child(1) {
+  margin-right: 70px;
+  margin-left: 70px;
+}
+
 .filter-group-summary {
   margin-left: auto;
+  margin-right: 70px;
 }
 
 .conveniences {
@@ -358,6 +370,12 @@ body {
   font-weight: 700;
   color: #000000;
   background-color: #F2F2F2;
+}
+
+.filter-button-container {
+  display: flex;
+  flex-direction: column;
+  margin-right: 70px;
 }
 
 .catalog-filter-submit {
@@ -409,7 +427,8 @@ body {
   font-size: 30px;
   line-height: 36px;
   font-weight: 700;
-  color: #000000
+  color: #000000;
+  text-transform: uppercase;
 }
 
 .catalog-products-select {
