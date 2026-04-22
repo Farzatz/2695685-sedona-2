@@ -14,6 +14,10 @@
   font-display: swap;
 }
 
+html {
+  height: 100%;
+}
+
 body {
   font-family: "PT Sans", sans-serif;
   font-size: 22px;
@@ -22,6 +26,10 @@ body {
   font-style: normal;
   background-color: #F2F2F2;
   color: #333333;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
 }
 
 .button {
@@ -39,6 +47,32 @@ body {
 .page-header {
   color: #000000;
   background-color: #FFFFFF;
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.navigation {
+  display: flex;
+  width: 880px;
+  margin: 0 auto;
+}
+
+.navigation-logo {
+  width: 138px;
+  margin-right: 30px;
+  margin-left: 70px;
+}
+
+.navigation-list {
+  margin: 0;
+  padding: 0;
+  width: 450px;
+}
+
+.navigation-user {
+  max-width: 88px;
+  margin-left: auto;
 }
 
 .navigation-link {
@@ -61,8 +95,23 @@ body {
   text-decoration: none;
 }
 
+.header-button {
+  margin-right: 70px;
+}
+
+.main-container {
+  flex-grow: 1;
+  width: 1200px;
+  margin: 0 auto;
+}
+
 .main-index {
   background-color: #FFFFFF;
+}
+
+.page-container {
+  width: 1200px;
+  margin: 0 auto;
 }
 
 .hero {
@@ -72,6 +121,11 @@ body {
   background-size: 100% auto, cover;
   background-repeat: no-repeat;
   background-position: left bottom, left top;
+}
+
+.hero-image {
+  display: block;
+  margin: 0 auto;
 }
 
 .advantages {
@@ -85,6 +139,26 @@ body {
   color: #000000;
   background-color: #FFFFFF;
   text-align: center;
+}
+
+.advantages-list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.advantages-item {
+  width:400px;
+}
+
+.advantages-dark {
+  width: 1200px;
+}
+
+.advantages-middle {
+  display: flex;
+  flex-direction: row;
 }
 
 .advantages-item-title {
@@ -104,6 +178,7 @@ body {
 .advantages-dark {
   color: #FFFFFF;
   background-color: #82B3D3;
+
 }
 
 .advantages-title-light {
@@ -120,6 +195,16 @@ body {
 
 .recommendations {
   text-align: center;
+}
+
+.recommendations-list {
+  display:flex;
+  margin: 0;
+  padding: 0;
+}
+
+.recommendations-item {
+  width: 400px;
 }
 
 .recommendations-item-title {
@@ -183,6 +268,17 @@ body {
   background-color: #FFFFFF;
 }
 
+.page-footer-container {
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-social-list {
+  width: 142px;
+  margin-right: 41.5px;
+}
+
 .footer-phone {
   font-size: 40px;
   line-height: 40px;
@@ -191,6 +287,12 @@ body {
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
+  width: 720px;
+  margin-right: 41.5px;
+}
+
+.copyright {
+  width: 115px;
 }
 
 .main-catalog {
@@ -219,10 +321,23 @@ body {
   text-decoration: none;
 }
 
+.filters {
+  display: flex;
+}
+
 .catalog-filter-title {
   font-size: 20px;
   line-height: 24px;
   font-weight: 700;
+}
+
+.catalog-filter-group {
+  width: 151px;
+  margin-right: 70px;
+}
+
+.filter-group-summary {
+  margin-left: auto;
 }
 
 .conveniences {
@@ -248,6 +363,43 @@ body {
   background-color: transparent;
 }
 
+.catalog-products {
+  display: flex;
+  flex-direction: column;
+}
+
+.product-sorting {
+  display: flex;
+  flex-direction: row;
+  width: 1060px;
+  margin: 0 auto;
+}
+
+.catalog-products-select {
+  width: 292px;
+  margin-left: auto;
+}
+
+.catalog-products-view {
+  margin-left: 70px;
+}
+
+.product-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 1060px;
+}
+
+.product-item {
+  width: 340px;
+  margin-right: 20px;
+}
+
+.product-item:nth-child(3n) {
+  margin-right: 0;
+}
+
 .catalog-products-title {
   font-size: 30px;
   line-height: 36px;
@@ -263,8 +415,15 @@ body {
   background-color: #FFFFFF;
 }
 
+.product-item {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .product-item-link {
   text-decoration: none;
+  margin-left: 20px;
+  margin-right: auto;
 }
 
 .product-item-title {
@@ -279,6 +438,9 @@ body {
   line-height: 21px;
   font-weight: 400;
   color: #333333;
+  width: 140px;
+  margin-right: 20px;
+  margin-left: 20px;
 }
 
 .product-item-price {
@@ -287,14 +449,29 @@ body {
   font-weight: 400;
   color: #333333;
   text-align: right;
+  width: 140px;
+}
+
+.product-item-button {
+  width: 140px;
+  margin-right: 20px;
+  margin-left: 20px;
 }
 
 .add-favorite-button {
   background-color: #82B3D3;
+  width: 140px;
 }
 
 .current-favorite-button {
   background-color: #7DB54F;
+  width: 140px;
+}
+
+.product-item-stars {
+  width: 140px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .product-item-rating {
@@ -305,6 +482,7 @@ body {
   text-align: center;
   text-transform: uppercase;
   background-color: #F2F2F2;
+  width: 140px;
 }
 
 .pagination-link {
