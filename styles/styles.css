@@ -272,11 +272,14 @@ body {
 
 .page-footer-container {
   display: flex;
+  margin: 0;
+  padding: 0;
 }
 
 .footer-social-list {
   width: 142px;
-  margin-right: 41.5px;
+  margin-left: 70px;
+  padding: 0;
 }
 
 .footer-phone {
@@ -288,12 +291,13 @@ body {
   text-decoration: none;
   text-transform: uppercase;
   width: 720px;
-  margin-right: 41.5px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .copyright {
   width: 115px;
-  margin-right: auto;
+  margin-right: 70px;
 }
 
 .main-catalog {
